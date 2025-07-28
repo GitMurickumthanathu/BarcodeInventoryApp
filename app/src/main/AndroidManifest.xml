@@ -1,12 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.barcodeinventory">
-    <application
-        android:label="Barcode Inventory"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+    <application android:label="BarcodeInventoryApp">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
