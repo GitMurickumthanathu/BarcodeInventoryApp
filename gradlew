@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Simulating gradlew build..."
+echo 'Running gradlew...'
