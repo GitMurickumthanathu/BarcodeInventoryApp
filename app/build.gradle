@@ -1,11 +1,14 @@
-apply plugin: 'com.android.application'
+
+plugins {
+    id 'com.android.application'
+}
 
 android {
-    compileSdkVersion 30
+    compileSdk 31
     defaultConfig {
-        applicationId "com.example.barcodeinventory"
-        minSdkVersion 21
-        targetSdkVersion 30
+        applicationId "com.example.barcodeinventoryapp"
+        minSdk 21
+        targetSdk 31
         versionCode 1
         versionName "1.0"
     }
@@ -18,5 +21,6 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
 }

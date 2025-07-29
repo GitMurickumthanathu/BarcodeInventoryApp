@@ -1,2 +1,2 @@
-#!/bin/bash
-echo 'Running gradlew...'
+#!/bin/sh
+./gradle/wrapper/gradle-wrapper.jar "$@"
